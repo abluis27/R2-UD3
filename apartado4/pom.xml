@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>apartado1</artifactId>
+    <artifactId>apartado4</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -15,11 +15,11 @@
     </properties>
 
     <dependencies>
-
+        <!-- Dependencia de JPA -->
         <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
-            <version>3.1.0</version>
+            <version>3.1.0</version> <!-- You can use this version or the latest available -->
         </dependency>
 
         <!-- Dependencia de Hibernate JPA -->
@@ -37,7 +37,6 @@
             <version>3.4.1</version>
         </dependency>
         -->
-
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>

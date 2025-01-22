@@ -21,7 +21,7 @@
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 
             <!-- Acción de la generación de esquemas -->
-            <property name="hibernate.hbm2ddl.auto" value="create" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
 
             <!-- Habilitar el logging de Hibernate -->
             <property name="hibernate.show_sql" value="true" />
