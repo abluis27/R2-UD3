@@ -9,6 +9,7 @@
 
         <!-- Entidades -->
         <class>main.modelo.Autor</class>
+        <class>main.modelo.Libro</class>
 
         <properties>
             <!-- Propiedades para Hibernate -->
